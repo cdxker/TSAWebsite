@@ -1,6 +1,6 @@
-from flask import blueprint, render_template
+from flask import Blueprint, render_template
 
-home_bp = blueprint()
+home_bp = Blueprint("home_bp", __name__, static_folder="static", template_folder="templates")
 
 @home_bp.route("/")
 def hoem():
