@@ -1,6 +1,6 @@
-from TSA.app import create_app
+import TSA
 
-app = create_app()
+app = TSA.create_app()
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=False)
+    app.run(port=5000, debug=True)
