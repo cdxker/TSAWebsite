@@ -1,5 +1,5 @@
 from .home import home_bp
-from .pathways import pathways
+from .pathways import pathway
 from flask import Flask
 
 def init_app(app:Flask):
