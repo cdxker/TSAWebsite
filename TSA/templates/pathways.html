@@ -1,16 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block header%}
-  <div class="header sidebar col-md-2 side">
-      <a class="active" href="#home">Pathways</a><br>
-      <a href="#Engineering">Engineering</a><br>
-      <a href="#Aerospace">Aerospace Academy</a><br>
-      <a href="#Graphic">Graphic Communication</a><br>
-      <a href="#Architecture">Architecture</a><br>
-      <a href="#Automotive">Automotive Technology</a><br>
-      <a href="#Information">Information Technology</a><br>
-      <a href="#Media">Media Technology</a><br>
-  </div>
+ 
 {% endblock %}
 {% block body %}
 <div class="row">
@@ -22,10 +13,18 @@
       prepare them for a 2-year, 4-year, or technical college. In addition to their high school diploma, students are
       also eligible to complete programs that award them with advanced certifications, industry training,
       internship, and career-field experiences. Dubiski offers HB5 endorsements including STEM, Business & Industry, and Public Service. However, we are focusing on the pathways related to TSA and technology. </p>
-
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
+       <div class="header sidebar col-md-2 side">
+      <a class="active" href="#home">Pathways</a><br>
+      <a href="#Engineering">Engineering</a><br>
+      <a href="#Aerospace">Aerospace Academy</a><br>
+      <a href="#Graphic">Graphic Communication</a><br>
+      <a href="#Architecture">Architecture</a><br>
+      <a href="#Automotive">Automotive Technology</a><br>
+      <a href="#Information">Information Technology</a><br>
+      <a href="#Media">Media Technology</a><br>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         {% for i in range(1, 11) %}
             <li data-target="#caroselExampleIndicators", data-slide-to="{{i}}"></li>
