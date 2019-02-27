@@ -2,7 +2,6 @@ from flask import Blueprint, render_template
 
 home_bp = Blueprint("home_bp", __name__, static_folder="static", template_folder="templates")
 
-
 """
 this adds a route to the /home and / part of the website.
 It looks in a similar way as a file system would.
@@ -16,3 +15,11 @@ def home():
 @home_bp.route("/team")
 def team():
     return render_template("meet_the_team.html")
+
+@home_bp.route("/design-brief")
+def design():
+    return render_template("design_brief.html")
+
+@home_bp.route('/competition')
+def competition():
+    return render_template('competition.html')
