@@ -14,11 +14,6 @@
   background-color: #324659;
 }
 
-#MainPage {
-  background-color: #4e8ac9;
-  padding: 1cm;
-}
-
 .navbar {
   background-color: rgb(231, 52, 52);
 }
@@ -27,6 +22,24 @@ li.nav-item{
   border-right: 1px solid rgb(165, 37, 37);
 }
 
-p{
+.card{
+  border: 0 ;
+}
+
+.officer-img{
+  width: 400px;
+  height: 400px;
+}
+
+.card-body{
+  border: 0 ;
+  background-color: #4e8ac9;
+}
+
+.card-title{
+  border-bottom: 3px solid rgb(129, 128, 128);
+}
+
+p.design-text{
   font-size: 20px;
 }
