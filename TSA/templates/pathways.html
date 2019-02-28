@@ -91,8 +91,8 @@
           </a>
         </div>
       </div>
-      <p class="card-text">In automotie technology students are able to compete in many competions such as
-          FFA and TSA. As well as the abliity to earn internships at an auto repair shop and get paid in cash
+      <p class="card-text">Automotive technology students are able to compete in many competitions such as
+          TSA, FFA, and SkillsUSA. As well as the ability to earn internships at an auto repair shop and get paid in cash
           for their learning.
       </p>
     </div>
@@ -131,48 +131,45 @@
           <p class="card-text">
             In Media technology, students are given the ability to have hands on experience with creating
             and editing viedoes as well as work on more complicated tasks such as how to create movie trailers and
-            how to setup lights for a professional studio through the use of profeesional video production tools
+            how to setup lights for a professional studio through the use of profeesional video production tools. They can competete in TSA, SkillsUSA, and BPA. 
           </p>
       </div>
   </div>
-</div>
+
  <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Media Technology</h4>
+      <h4 class="card-title">Engineering</h4>
       <div id="media-carosel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#media-carosel" data-slide-to="0" class="active"></li>
+          <li data-target="#engine-carosel" data-slide-to="0" class="active"></li>
           {% for i in range(1, 11) %}
-          <li data-target="#media-carosel" , data-slide-to="{{i}}"></li>
+          <li data-target="#engine-carosel" , data-slide-to="{{i}}"></li>
           {% endfor %}
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="img-fluid w-100" src="{{url_for('static', filename='images/media/media1.JPG')}}" alt="First slide">
+            <img class="img-fluid w-100" src="{{url_for('static', filename='images/engine/engine1.PNG')}}" alt="First slide">
           </div>
           {%for i in range(2, 11) %}
           <div class="carousel-item">
-            <img class="img-fluid w-100" src="{{url_for('static', filename='images/media/media{}.JPG'.format(i))}}" alt="First slide">
+            <img class="img-fluid w-100" src="{{url_for('static', filename='images/engine/engine{}.JPG'.format(i))}}" alt="First slide">
           </div>
           {% endfor %}
-          <a class="carousel-control-prev" href="#media-carosel" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#engine-carosel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#media-carosel" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#engine-carosel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
           <p class="card-text">
-            In Media technology, students are given the ability to have hands on experience with creating
-            and editing viedoes as well as work on more complicated tasks such as how to create movie trailers and
-            how to setup lights for a professional studio through the use of profeesional video production tools
+            The Engineering program provides students with a real world approach to learning the basic principles of engineering. Students gain a foundation in engineering through projects, job shadowing, field trips, guest speakers, organizations and internships.
           </p>
       </div>
   </div>
-</div>
 
 <div class="card">
   <div class="card-body">
@@ -210,5 +207,109 @@
         </p>
     </div>
 </div>
+
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Graphics</h4>
+    <div id="media-carosel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#graphics-carosel" data-slide-to="0" class="active"></li>
+        {% for i in range(1, 11) %}
+        <li data-target="#graphics-carosel" , data-slide-to="{{i}}"></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/graphics/graphics1.JPG')}}" alt="First slide">
+        </div>
+        {%for i in range(2, 11) %}
+        <div class="carousel-item">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/graphics/graphics{}.JPG'.format(i))}}" alt="First slide">
+        </div>
+        {% endfor %}
+        <a class="carousel-control-prev" href="#graphics-carosel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#graphics-carosel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+        <p class="card-text">
+          Graphic Arts students have the opportunity to participate in competitions on the local, district, state, and national level. Competition areas range from Advertising & Design to Professional Development to Printing. Any student can compete with the right amount of drive and training.The Dubiski Printshop produces a wide range of printed products. We entertain client jobs that can vary from t-shirts, to banners, to nametags. With our state of the art equipment, up to date programs, and talented students we are able to produce award winning work. Our seniors run the school’s printshop by doing jobs for a variety of clients. They are not only able to apply and develop the skills they’ve acquired in previous courses, but gain skills in professionalism though real world experience.
+        </p>
+    </div>
+
+    
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Aerospace</h4>
+    <div id="aero-carosel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#aero-carosel" data-slide-to="0" class="active"></li>
+        {% for i in range(1, 11) %}
+        <li data-target="#aero-carosel" , data-slide-to="{{i}}"></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/aero/aero1.JPG')}}" alt="First slide">
+        </div>
+        {%for i in range(2, 11) %}
+        <div class="carousel-item">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/aero/aero{}.JPG'.format(i))}}" alt="First slide">
+        </div>
+        {% endfor %}
+        <a class="carousel-control-prev" href="#aero-carosel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#aero-carosel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+        <p class="card-text">
+          The GPISD Aerospace Academy is a first of its kind, comprehensive and ambitious program to prepare students for a career in the aerospace industry. This unique high school program of choice involves a Career Technical Education component as well as a rigorous college preparatory side with dual credit and advance placement courses. Partnerships with aerospace companies provide internships, program support and hands-on learning opportunities.
+        </p>
+    </div>
+    
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Architecture</h4>
+    <div id="arch-carosel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#arch-carosel" data-slide-to="0" class="active"></li>
+        {% for i in range(1, 11) %}
+        <li data-target="#arch-carosel" , data-slide-to="{{i}}"></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/arch/arch1.JPG')}}" alt="First slide">
+        </div>
+        {%for i in range(2, 11) %}
+        <div class="carousel-item">
+          <img class="img-fluid w-100" src="{{url_for('static', filename='images/arch/arch{}.JPG'.format(i))}}" alt="First slide">
+        </div>
+        {% endfor %}
+        <a class="carousel-control-prev" href="#arch-carosel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#arch-carosel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+        <p class="card-text">
+          The Department of Architecture at Dubiski Career High School is one of many career pathways available. The architecture program is dedicated to developing the creative, technical, and construction side of design through varies projects both analogue and digital. In conjunction with the career pathway, each Career Technology Elective course integrates the core basics of math, reading, writing, history, and science into its discipline. While students attend their course, they apply what they know into the career development profession of either architecture or interior design.
+        </p>
+    </div>
 </div>
+
 {% endblock %}
