@@ -1,0 +1,270 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Teacher Directory</h2>
+<p>Dubiski has many qualified and certified professionals to be teachers in all it's pathways. This page only features the pathways relating to TSA.</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="blosser.jpg" alt="Brian Blosser" style="width:100%">
+      <div class="container">
+        <h2>Brian Blosser</h2>
+        <p class="title">Academy of Business and Communications</p>
+        <p> <bold> Classes:</bold>Audio and Video Production Practicum, Audio Video Production I, Principles of Audio and Video Production <br> <bold>Conference:</bold>1st Period/8:50 - 10:15
+        <br> Technology Student Association Co-Advisor <br>I coach girls fast-pitch softball, am an avid Steelers fan. This is my 10th year teaching and 5th year at Dubiski. <br> <bold> Degrees and Certifications:</bold> <br> Telecommunications Business Management <br> DeVry University <br> Microsoft Office Master <br> Microsoft <br> Certified Professional <br> Television Production Proficiency <br> CPR/First Aid/AED </p>
+        <p>Brian.Blosser@gpisd.org</p>
+        <p><button class="button"> Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="burk.jpg" alt="David Burk" style="width:100%">
+      <div class="container">
+        <h2>David Burk</h2>
+        <p class="title">Academy of Business and Communications</p>
+        <p> <bold>Classes</bold>Art I, Graphic Design & Illustration II <br> <bold>Conference:</bold> 2nd Period: 10:20-11:45 <br> Artist • Illustrator • Educator • Jedi "The greatest teacher, failure is.". <br> <bold> Degrees and Certifications: </bold> <br> Bachelor of Fine Arts in Communication Design <br> University of North Texas <br> University of Texas Arlington <br> All-Level Art (PK-12) <br> Technology Applications (EC-12)</p>
+        <p>david.burk@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="christensen.jpg" alt="Curtis Christensen" style="width:100%">
+      <div class="container">
+        <h2>Curtis Christensen</h2>
+        <p class="title"> Academy of Human Services and Transportation </p>
+        <p> <bold>Classes: </bold> Automotive Collision <br> <bold> Conference:</bold> 5th Period/8:50 - 10:15 <br>SkillsUSA Advisor<br> <bold> Degrees and Certifications:</bold>
+          <br> Auto Collision <br> WTI <br> I Car, ASE</p>
+        <p>curtis.christensen@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="ervin.jpg" alt="William Ervin" style="width:100%">
+      <div class="container">
+        <h2>William Ervin</h2>
+        <p class="title">Academy of Health Science and Engineering </p>
+        <p> <bold>Classes: </bold>Aerospace/Aviation Technology, Electronics, Robotics  <br>
+         <bold>Conference:</bold> 8th Period/2:50 - 4:15 <br> Skills USA Aviation Advisor <br> Fear has two meanings; Forget Everything And Run or Face Everything And Rise. <br>
+          <bold> Degrees and Certifications:</bold> <br> Aviator College Of Aeronautical Science & Technology <br> Commercial Pilot Single/Multi Engine Airplane <br> Flight Instructor Single/Multi Engine Airplane Instrument <br> Advanced Ground Instructor 
+        <p>william.ervin@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="harris.jpg" alt="D'artagnan Harris" style="width:100%">
+      <div class="container">
+        <h2>D'artagnan Harris</h2>
+        <p class="title">Academy of Health Science and Engineering</p>
+        <p> <bold> Classes:</bold>Senior Practicum, AC/DC Electronics <br> <bold>Conference:</bold>1st Period/8:50 - 10:15  <br>SkillsUSA Advisor, Teacher Leadership Committee, Teacher Mentor <br> For I long to see you, that I may impart unto you some spiritual gift to make you strong, that is that you and I may be mutually encouraged by each other's faith. - Romans 1: 11-12 <br> <bold> Degrees and Certifications:</bold> <br> B.S. in Architecture - Texas Tech University <br> M.Ed in Sports Administration - Concordia University
+
+        <p> dartagnan.harris@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="haynes.jpg" alt="Jacob Haynes" style="width:100%">
+      <div class="container">
+        <h2> Jacob Haynes</h2>
+        <p class="title">Academy of Health Science and Engineering</p>
+        <p> <bold>Classes: </bold> Architecture <br> <bold>Conference:</bold> 5th Period/8:50 - 10:15 <br> SkillsUSA Architecture Advisor <br> “Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1. Never tell me the odds."
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> B.S. in Architecture - University of Texas at Arlington
+          <br> M.S. in Architecture - University of Texas at Arlington
+          <br> Licensed Architect in the State of Texas
+          <br> Trade and Industrial Education Texas Educator</p>
+        <p>jacob.haynes@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="head.jpg" alt="Jonathan Head" style="width:100%">
+      <div class="container">
+        <h2>Jonathan Head</h2>
+        <p class="title"> Academy of Health Science and Engineering </p>
+        <p> <bold> Classes: </bold> Engineering   <br> 
+          <bold>Conference:</bold>8th Period/2:50 - 4:15
+          <br> Academy Lead, SkillsUSA Advisor <br> This is my 25th year in GPISD
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> 
+          <br> tireddd
+          <br>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> <div class="column">
+    <div class="card">
+      <img src="case.jpg" alt="Tyler Case" style="width:100%">
+      <div class="container">
+        <h2>Tyler Case</h2>
+        <p class="title">Audio Video Productions </p>
+        <p> <bold>Conference:</bold>2nd Period/10:20 - 11:45
+          <br> Tyler Case has been apart of the film industry for 10 years. He's worked on feature films in California and Oklahoma. He started his own production company right out of High School filming Weddings, Special Events, Sports Events, Music Videos and more. His passion for Film and TV has given him the opportunities to travel and see the world while doing what he loves most. He's an award winning filmmaker and currently working on a feature film that will have world wide distribution on Netflix, Redbox, and VOD.
+          <br> If it can be written or thought, It can be filmed. - Stanley Kubrick
+          <br> <bold> Degrees and Certifications:</bold>
+          <br> Associates in Motion Picture Production
+          KD College</p>
+        <p>tyler.case@gpisd.org</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+{% endblock %}
