@@ -28,6 +28,4 @@ def competition():
 def teachers():
     return render_template('teachers.html')
 
-    @home_bp.route('/classes')
-def classes():
-    return render_template('classes.html')
+  
