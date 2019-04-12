@@ -24,7 +24,7 @@ def design():
 def competition():
     return render_template('competition.html')
 
-  @home_bp.route('/teachers')
+@home_bp.route('/teachers')
 def teachers():
     return render_template('teachers.html')
 
