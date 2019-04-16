@@ -14,16 +14,9 @@
   background-color: #324659;
 }
 
-.navbar {
-  background-color: rgb(231, 52, 52);
-}
-
-li.nav-item{
-  border-right: 1px solid rgb(165, 37, 37);
-}
-
 .card{
   border: 0 ;
+  background-color: #4e8ac9;
 }
 
 .pathway-slide-img{

@@ -24,10 +24,10 @@ def design():
 def competition():
     return render_template('competition.html')
 
-  @home_bp.route('/teachers')
+@home_bp.route('/teachers')
 def teachers():
     return render_template('teachers.html')
 
-    @home_bp.route('/classes')
+@home_bp.route('/classes')
 def classes():
     return render_template('classes.html')
