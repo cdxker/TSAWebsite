@@ -165,6 +165,6 @@ conf = 'Conference: 6th Period/10:20 - 11:45'
 womack = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 
 teachers = [blosser, burk, case,
-            chirstensen, ervin,
-            harris, head, mccown,
-            pigg, womack]
+            chirstensen, ervin, harris,
+            head, mccown, pigg,
+            womack]
