@@ -4,6 +4,9 @@
   background: #1abc9c; /* green background */
   color: white; /* white text color */
 }
+.navbar{
+  background-color: red;
+}
 
 /* Increase the font size of the <h1> element */
 .header h1 {

@@ -1,6 +1,6 @@
-from flask import Blueprint, render_template
-
-home_bp = Blueprint("home_bp", __name__, static_folder="static", template_folder="templates")
+from flask import Blueprint, render_template, abort
+from TSA.routes import staff
+home_bp = Blueprint("home", __name__, static_folder="static", template_folder="templates")
 
 """
 this adds a route to the /home and / part of the website.
@@ -26,8 +26,14 @@ def competition():
 
 @home_bp.route('/teachers')
 def teachers():
-    return render_template('teachers.html')
+    return render_template('teachers.html', teachers=staff.teachers)
 
 @home_bp.route('/classes')
 def classes():
     return render_template('classes.html')
+
+@home_bp.route('/teachers/<string:teacher>')
+def staff_member(teacher):
+    if not getattr(staff, teacher):
+        return abort(404)
+    return render_template('teacher.html', teacher=getattr(staff, teacher))

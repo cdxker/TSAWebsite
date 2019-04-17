@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block style %}
+<style>
+    p {
+        white-space: pre-line
+    }
+</style>
+{% endblock %}
+{% block body %}
+{% set teacherImg = '/static/teachers/' + teacher.last_name + '.JPG' %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="card-img" src="{{teacherImg}}" alt="{{teacher.name}}">
+                <p> Email: {{teacher.email}} </p>
+            </div>
+            <div class="col-sm-8">
+                <h2>{{teacher.name}}</h2>
+                <h5>{{teacher.academy}}</h5>
+                <p> Conference: {{teacher.conference}} </p>
+                <p>{{teacher.ext}}</p>
+                <b>Degrees and Certifications:</b>
+                <ul>
+                    {% for thing in teacher.achievements %}
+                    <li>{{thing}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
