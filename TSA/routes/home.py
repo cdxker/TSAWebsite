@@ -32,6 +32,10 @@ def teachers():
 def classes():
     return render_template('classes.html')
 
+@home_bp.route('/events')
+def events():
+    return render_template('events.html')
+
 @home_bp.route('/teachers/<string:teacher>')
 def staff_member(teacher):
     if not getattr(staff, teacher):

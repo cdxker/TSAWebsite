@@ -5,45 +5,32 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+    {% for i in range(1, 5) %}
+      <li data-target="#myCarousel" data-slide-to="{{i}}"></li>
+    {% endfor %}
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
+
+    <div class="item active">
+      <img class="img-fluid w-100" src="{{url_for('static', filename='images/ft.jpg')}}">
+    </div>
     
-      <div class="item active">
-          <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/ft.jpg')}}">
-        </div>   
     <div class="item">
-        <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsatsa1.png')}}">
+        <img class="img-fluid w-100" src="{{url_for('static', filename='images/img_1772.jpg')}}">
       </div>
-      
+
     <div class="item">
-        <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa2.png')}}">
-      </div>
-      <div class="item">
-          <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa3.png')}}">
-        </div>
-        <div class="item">
-            <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa4.jpg')}}">
-          </div>
-          <div class="item">
-              <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa5.jpg')}}">
-            </div> <div class="item">
-                <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa6.jpg')}}">
-              </div>
-          <div class="item">
-              <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/tsa7.png')}}">
-            </div>
-    <div class="item">
-      <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/prayer.jpeg')}}">
+      <img class="img-fluid w-100" src="{{url_for('static', filename='images/prayer.jpeg')}}">
     </div>
+    
     <div class="item">
-      <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/work.jpg')}}">
+      <img class="img-fluid w-100" src="{{url_for('static', filename='images/work.jpg')}}">
     </div>
+    
     <div class="item ">
-      <img class="img-fluid w-100" src="{{url_for('static', filename='images/tsa/everyone.jpg')}}">
+      <img class="img-fluid w-100" src="{{url_for('static', filename='images/everyone.jpg')}}">
     </div>
   </div>
 
@@ -58,6 +45,31 @@
   </a>
 </div>
 <br>
+<div class="card-deck" style="text-align: center"></div>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Competitions</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="..." alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 <div class="card-deck" style="text-align: center">
   <div class="card">
     <div class="card-body">
@@ -106,7 +118,12 @@
         world. I believe there is a need for the development of good attitudes concerning work, tools, materials,
         experimentation, and processes of industry. Guided by my teachers, artisans from industry, and my own
         initiative, I will strive to do my best in making my school, community, state, and nation better places in which
-        to live. <br> <br> I will accept the responsibilities that are mine. I will accept the theories that are supported by proper evidence. I will explore on my own for safer, more effective methods of working and living. I will strive to develop a cooperative attitude and will exercise tact and respect for other individuals. Through the work of my hands and mind, I will express my ideas to the best of my ability. I will make it my goal to do better each day the task before me, and to be steadfast in my belief in my God, and my fellow Americans.</p>
+        to live. <br> <br> I will accept the responsibilities that are mine. I will accept the theories that are
+        supported by proper evidence. I will explore on my own for safer, more effective methods of working and living.
+        I will strive to develop a cooperative attitude and will exercise tact and respect for other individuals.
+        Through the work of my hands and mind, I will express my ideas to the best of my ability. I will make it my goal
+        to do better each day the task before me, and to be steadfast in my belief in my God, and my fellow Americans.
+      </p>
     </div>
   </div>
 </div>
