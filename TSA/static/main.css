@@ -19,7 +19,7 @@
 
 .card{
   border: 0 ;
-  background-color: #4e8ac9;
+  background-color: white
 }
 
 .pathway-slide-img{
@@ -35,13 +35,13 @@
 
 .card-body{
   border: 0 ;
-  background-color: #4e8ac9;
+  background-color: white
 }
 
 .card-title{
-  border-bottom: 3px solid rgb(129, 128, 128);
+  border-bottom: 3px solid black;
 }
 
-p.design-text{
+.design-text{
   font-size: 20px;
 }
