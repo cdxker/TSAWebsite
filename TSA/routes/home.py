@@ -41,3 +41,23 @@ def staff_member(teacher):
     if not getattr(staff, teacher):
         return abort(404)
     return render_template('teacher.html', teacher=getattr(staff, teacher))
+
+@home_bp.route('/affiliation')
+def affiliation():
+    return render_template('affiliation.html')
+
+@home_bp.route('/leadership')
+def leadership():
+    return render_template('leadership.html')
+
+@home_bp.route('/policiesandfaqs')
+def policiesandfaqs():
+    return render_template('policiesandfaqs.html')
+    
+@home_bp.route('/scholarships')
+def scholarships():
+    return render_template('scholarships.html')
+    
+@home_bp.route('/staterulebook')
+def staterulebook():
+    return render_template('staterulebook.html')
