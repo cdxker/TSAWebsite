@@ -101,11 +101,12 @@
 {% endblock style %}
 
 {% block body %}
-<div class="text-center">
-    <iframe src="https://calendar.google.com/calendar/embed?title=TSA%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nde4q0cab04q8upfn9a7ni5kuhhkt4r2%40import.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border:solid 1px #777" width="1000" height="600" 
-</div>
-<br> <br> 
 <body>
+  <div class="text-center">
+    <iframe src="https://calendar.google.com/calendar/embed?title=TSA%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nde4q0cab04q8upfn9a7ni5kuhhkt4r2%40import.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border:solid 1px #777" width="1000" height="600"  </iframe> </div>
+<br> <br> 
+
+
       <h2 style="text-align:center">Slideshow Gallery</h2>
       <div class="container">
         <div class="mySlides">
@@ -174,7 +175,7 @@
             </div>
         </div>
       </div>
-      
+      {% block scripts %}
       <script>
       var slideIndex = 1;
       showSlides(slideIndex);
@@ -205,6 +206,6 @@
         captionText.innerHTML = dots[slideIndex-1].alt;
       }
       </script>
-          
+  {% endblock scripts %}
       </body>
   {% endblock %}
