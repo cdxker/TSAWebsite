@@ -10,6 +10,7 @@ class Teacher:
         self.conference = conference
 
 #blosser
+blosser = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 email = 'Brian.Blosser@gpisd.org'
 name = 'Brian Blosser'
 achiv = [
@@ -25,7 +26,7 @@ ext = 'TSA (Technology Student Association) Co-Advisor\n I coach girls fast-pitc
 conf = 'Conference:1st Period/8:50 - 10:15'
 
 
-blosser = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+burk = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #burk
 email = 'david.burk@gpisd.org'
 name = 'David Burk'
@@ -42,7 +43,7 @@ ext = 'Artist • Illustrator • Educator • Jedi \"The greatest teacher, fail
 conf = 'Conference: 2nd Period: 10:20-11:45'
 
 
-burk = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+case = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #case
 email = 'tyler.case@gpisd.org'
 name = 'Tyler Case'
@@ -55,7 +56,7 @@ ext = "Tyler Case has been apart of the film industry for 10 years. He's worked 
 conf = 'Conference: 2nd Period/10:20 - 11:45'
 
 
-case = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+christensen = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #chirstensen
 email = 'curtis.christensen@gpisd.org'
 name = 'Curtis Christensen'
@@ -69,7 +70,7 @@ ext = 'SkillsUSA Advisor'
 conf = 'Conference: 5th Period/8:50 - 10:15'
 
 
-chirstensen = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+ervin = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #ervin
 email = 'william.ervin@gpisd.org'
 name = 'William Ervin'
@@ -84,7 +85,7 @@ ext = 'Skills USA Aviation Advisor \n Fear has two meanings; Forget Everything A
 conf = 'Conference: 8th Period/2:50 - 4:15'
 
 
-ervin = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+harris = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #harris
 email = 'dartagnan.harris@gpisd.org'
 name = "D'artagnan Harris"
@@ -94,13 +95,27 @@ achiv = [
 "M.Ed in Sports Administration",
 "Concordia University"
 ]
-academy = ''
+academy = 'Academy of Health Science and Engineering'
 ext = "SkillsUSA Advisor, Teacher Leadership Committee, Teacher Mentor\n \nFor I long to see you, that I may impart unto you some spiritual gift to make you strong, that is that you and I may be mutually encouraged by each other's faith. - Romans 1: 11-12"
 conf = 'Conference: 1st Period/8:50 - 10:15'
 
+haynes = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+#harris
+email = 'jacob.haynes@gpisd.org '
+name = "Jacob Haynes"
+achiv = [
+"M.S. in Architecture",
+"University of Texas at Arlington",
+"University of Texas at Arlington ",
+"Licensed Architect in the State of Texas"
+"Trade and Industrial Education Texas Educator"
+]
+academy = 'Academy of Health Science and Engineering'
+ext = "SkillsUSA Architecture Advisor\n \n “Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1. Never tell me the odds." "
+conf = 'Conference: 5th Period/8:50 - 10:15 '
 
 
-harris = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+head = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 
 #head
 email = 'jonathan.head@gpisd.org'
@@ -121,10 +136,24 @@ ext = 'Academy Lead, SkillsUSA Advisor \n This is my 25th year in GPISD.'
 conf = 'Conference: 8th Period/2:50 - 4:15'
 
 
+lonergan = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+#lonergan
+email = 'Email: robert.lonergan@gpisd.org'
+name = "Robert Lonergan"
+achiv = [
+"B.S. in Radio, TV, & Film",
+"The University of Texas at Austin",
+"M.Ed. in Curriculum & Instruction",
+"Texas A&M Commerce",
+"Adobe Certified Associate in Animate ",
+]
+academy = 'Academy of Business and Communications'
+ext = "TSA Advisor, SkillsUSA Media Tech Co-advisor, Freshman Class Sponsor \n I obtained my Radio TV Film degree and put it to use working on an independent film, Nightwish, Robocop 2 and Robocop 3 (putting Robocop in the suit!). In between these films I worked at video companies in Houston and afterwards I came to Dallas and worked for Video Litigation Services for 5 years before getting into teaching at South Grand Prairie, where I stayed for 12 years before coming to Dubiski when it opened. \nSprinkles are for winners. \n "
+conf = 'Conference: 4th Period/2:50 - 4:15 '
 
-head = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
-#mccown
 
+mccown = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+#harris
 email = 'deirdre.mccown@gpisd.org'
 name = 'Deirdre McCown'
 achiv = [
@@ -137,8 +166,20 @@ academy = "SkillsUSA Lead, AV Skills Advisor"
 ext = "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style. **Maya Angelou"
 conf = "Conference:1st Period/8:50 - 10:15"
 
-mccown = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+oliver = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
+email = 'jason.oliver@gpisd.org '
+name = "Jason Oliver"
+achiv = [
+"B.A.S.",
+"Texas Tech University",
+"Master of Architecture",
+"Texas Tech University",
+]
+academy = 'Academy of Health Science and Engineering'
+ext = "National Art Honor Society "
+conf = 'Conference: 8th Period/2:50 - 4:15'
 
+pigg = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #pigg
 email = 'james.pigg@gpisd.org'
 name = 'James Pigg'
@@ -150,9 +191,7 @@ academy = 'Math Department Chair\n Computer Science'
 ext = 'Mr. Pigg is a graduate of Texas Tech University, receiving his B.S. in Mathematics with a minor in Electrical Engineering.  During his stay at Texas Tech, Mr. Pigg had several majors, including Electrical Engineering, Computer Science, Computer Engineering, Civil Engineering, and Mathematics.  Mr. Pigg has also completed over 40 graduate-level math hours at Texas Tech.'
 conf = 'Conference: 6th Period/10:20 - 11:45'
 
-
-pigg = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
-
+womack = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 #womack
 email = 'scott.womack@gpisd.org'
 name = 'Scott Womack'
@@ -162,9 +201,8 @@ ext = 'SkillsUSA Advisor\n "Do the best you can until you know better. Then, whe
 conf = 'Conference: 6th Period/10:20 - 11:45'
 
 
-womack = Teacher(full_name=name, achievements=achiv, academy=academy, ext=ext, email=email, conference=conf)
 
 teachers = [blosser, burk, case,
             chirstensen, ervin, harris,
-            head, mccown, pigg,
+            head, lonergan, mccown, oliver, pigg,
             womack]
