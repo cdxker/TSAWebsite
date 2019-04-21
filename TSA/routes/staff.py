@@ -111,7 +111,7 @@ achiv = [
 "Trade and Industrial Education Texas Educator"
 ]
 academy = 'Academy of Health Science and Engineering'
-ext = "SkillsUSA Architecture Advisor\n \n “Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1. Never tell me the odds." "
+ext = "SkillsUSA Architecture Advisor\n \n Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1. Never tell me the odds."
 conf = 'Conference: 5th Period/8:50 - 10:15 '
 
 
