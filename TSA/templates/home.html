@@ -44,14 +44,14 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<br> <br>
-<div class="card-deck" style="text-align: center"></div>
+<br>
+<div class="card-deck" style="text-align: center">
 <div class="card" style="width: 30rem;">
     <img class="card-img-top" src="{{url_for('static', filename='images/competitions.png')}}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Competitions</h5>
       <p class="card-text">Challenging competitions that you can participate in at regionals, state and nationals.</p>
-      <a href="/competitons" class="btn btn-primary">Learn More</a>
+      <a href="/competition" class="btn btn-primary">Learn More</a>
     </div>
   </div>
   <div class="card" style="width: 30rem;">
@@ -67,10 +67,11 @@
         <div class="card-body">
           <h5 class="card-title">Scholarships</h5>
           <p class="card-text">Texas TSA awards scholarships to our students members annually.</p>
-          <a href="scholarships" class="btn btn-primary">Learn More</a>
+          <a href="/scholarships" class="btn btn-primary">Learn More</a>
         </div>
       </div>
-<br> <br>
+      </div>
+<hr> 
 <div class="card-deck" style="text-align: center">
   <div class="card">
     <div class="card-body">
@@ -97,35 +98,31 @@
     </div>
   </div>
 </div>
-<br><br>
+<hr>
 <div class="card-deck" style="text-align: center">
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">Vision Statement</h4>
-      <p class="card-text">TSA is accelerating student achievement and supporting teachers by providing engaging
-        opportunities to develop STEM skills.</p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">Motto</h4>
-      <p class="card-text">Learning to lead in a technical world.</p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">Creed</h4>
-      <p class="card-text">I believe that Technology Education holds an important place in my life in the technical
-        world. I believe there is a need for the development of good attitudes concerning work, tools, materials,
-        experimentation, and processes of industry. Guided by my teachers, artisans from industry, and my own
-        initiative, I will strive to do my best in making my school, community, state, and nation better places in which
-        to live. <br> <br> I will accept the responsibilities that are mine. I will accept the theories that are
-        supported by proper evidence. I will explore on my own for safer, more effective methods of working and living.
-        I will strive to develop a cooperative attitude and will exercise tact and respect for other individuals.
-        Through the work of my hands and mind, I will express my ideas to the best of my ability. I will make it my goal
-        to do better each day the task before me, and to be steadfast in my belief in my God, and my fellow Americans.
-      </p>
-    </div>
-  </div>
+    <div class="card" style="width: 30rem;">
+        <img class="card-img-top" src="{{url_for('static', filename='images/competitions.png')}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">State Rulebook</h5>
+          <p class="card-text">Member affiliation policies and memberships FAQs.</p>
+          <a href="/staterulebook" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem;">
+          <img class="card-img-top" src="{{url_for('static', filename='images/leader.png')}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Policies & FAQs</h5>
+            <p class="card-text">Official rulebook for etiquette, coordination and competition rules.</p>
+            <a href="/policiesandfaqs" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="{{url_for('static', filename='images/scholar.png')}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Affiliation</h5>
+              <p class="card-text">TSA membership is open to any Dubiski student.</p>
+              <a href="/affiliation" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
 </div>
 {% endblock %}
