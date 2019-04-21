@@ -4,4 +4,79 @@
 <div class="text-center">
     <iframe src="https://calendar.google.com/calendar/embed?title=TSA%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nde4q0cab04q8upfn9a7ni5kuhhkt4r2%40import.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border:solid 1px #777" width="1000" height="600" 
 </div>
+<br> <br> 
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+        <img src="" style="width:100%">
+        <img class="img-fluid w-100" src="{{url_for('static', filename='images/slide1.jpg')}}">
+      </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+        <img src="{{url_for('static', filename='images/slide2.jpg')}}" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+        <img src="{{url_for('static', filename='images/slide3.jpg')}}" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+        <img src="{{url_for('static', filename='images/slide4.jpg')}}" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+        <img src="{{url_for('static', filename='images/slide5.jpeg')}}" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+        <img src="{{url_for('static', filename='images/slide7.jpg')}}" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">7 / 7</div>
+          <img src="{{url_for('static', filename='images/slide8.jpeg')}}" style="width:100%">
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide1.jpg')}}" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column"> 
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide2.jpg')}}" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide3.jpg')}}" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide4.jpg')}}" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide5.jpeg')}}" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div> 
+      <div class="column">
+        <img class="demo cursor" src="{{url_for('static', filename='images/slide7.jpg')}}" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+      <div class="column">
+          <img class="demo cursor" src="{{url_for('static', filename='images/slide8.jpeg')}}" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+        </div>
+    </div>
+  </div>
   {% endblock %}
