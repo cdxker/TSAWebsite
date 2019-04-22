@@ -17,7 +17,7 @@
 {% endblock %}
 {% block body %}
 
-<div class="center jumbotron">
+<div class="center jumbotron" style="text-align: center">
   <h1>Teacher Directory</h1>
   <h3> Dubiski has many qualified and certified professionals to be teachers in all it's pathways. This page only
     features the pathways relating to TSA.</h3>
@@ -26,7 +26,7 @@
 
 <div class="card-deck">
   {% for teacher in teachers %}
-  {% set teacherImg = '/static/teachers/' + teacher.last_name + '.JPG' %}
+  {% set teacherImg = '/static/teachers/' + teacher.last_name + '.png' %}
   {% set teacherLink = '/teachers/' + teacher.last_name %}
   <div class="card">
     <div class="card-body">

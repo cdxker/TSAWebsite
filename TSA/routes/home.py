@@ -61,3 +61,31 @@ def scholarships():
 @home_bp.route('/staterulebook')
 def staterulebook():
     return render_template('staterulebook.html')
+  
+@home_bp.route('/aeroclasses')
+def aeroclasses():
+    return render_template('aeroclasses.html')
+  
+@home_bp.route('/autoclasses')
+def autoclasses():
+    return render_template('autoclasses.html') 
+  
+@home_bp.route('/engineclasses')
+def archclasses():
+    return render_template('archclasses.html')
+  
+@home_bp.route('/graphicsclasses')
+def graphicsclasses():
+    return render_template('graphicsclasses.html')
+  
+@home_bp.route('/infoclasses')
+def infoclasses():
+    return render_template('infoclasses.html')
+
+@home_bp.route('/mediaclasses')
+def mediaclasses():
+    return render_template('mediaclasses.html')
+    
+@home_bp.route('/tsapage')
+def tsapage():
+    return render_template('tsapage.html')

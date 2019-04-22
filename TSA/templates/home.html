@@ -5,7 +5,7 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    {% for i in range(1, 5) %}
+    {% for i in range(1, 6) %}
       <li data-target="#myCarousel" data-slide-to="{{i}}"></li>
     {% endfor %}
   </ol>
@@ -32,6 +32,11 @@
     <div class="item ">
       <img class="img-fluid w-100" src="{{url_for('static', filename='images/everyone.jpg')}}">
     </div>
+
+    
+    <div class="item">
+        <img class="img-fluid w-100" src="{{url_for('static', filename='images/img_1354.jpg')}}">
+      </div>
   </div>
 
   <!-- Left and right controls -->
@@ -80,6 +85,7 @@
       <p class="card-text">TSA or Texas Student Association is an organization
         that focuses on the betterment of students through technology and career readiness.
       </p>
+      <a href="/tsapage" class="btn btn-primary">Learn More</a>
     </div>
   </div>
   <div class="card">
@@ -91,10 +97,8 @@
   </div>
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title"> <b> Mission Statement</b></h4>
-      <p class="card-text">The Technology Student Association (TSA) enhances personal development, leadership, and
-        career opportunities in science, technology, engineering, and math (STEM), whereby members apply and integrate
-        these concepts through intracurricular activities, competitions, and related programs.</p>
+      <h4 class="card-title"> <b> Social Media</b></h4>
+      <p class="card-text"><a href="https://new.edmodo.com/groups/dubiski-tsa-2018-2019-28095195"><b> Edmodo:</b>  </a>            <br> <a href="https://www.remind.com/join/dubiskit"><b> Remind:</b>  </a> @dubiskit  <br> <a href="https://www.instagram.com/dchs_tsa/"><b> Instagram:</b>  </a>  @dchs_tsa</b>  </p>
     </div>
   </div>
 </div>
