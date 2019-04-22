@@ -85,3 +85,7 @@ def infoclasses():
 @home_bp.route('/mediaclasses')
 def mediaclasses():
     return render_template('mediaclasses.html')
+    
+@home_bp.route('/tsapage')
+def tsapage():
+    return render_template('tsapage.html')
