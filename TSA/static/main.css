@@ -22,6 +22,9 @@ html{
 #background {
   background-color: #324659;
 }
+.img-flip{
+  transform: scaleY(-1);
+}
 
 .card{
   border: 0 ;
