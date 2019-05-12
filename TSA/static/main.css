@@ -57,6 +57,11 @@ html{
   border-bottom: 3px solid black;
 }
 
+footer{
+  opacity: 0.9;
+  background-color: white;
+}
+
 .design-text{
   font-size: 20px;
 }
