@@ -6,9 +6,9 @@
         {
             "label": "Run Website",
             "type": "shell",
-            "command": "${workspaceRoot}\\venv\\Scripts\\python.exe",
+            "command": "${workspaceRoot}/venv/bin/python",
             "args": [
-                "${workspaceRoot}\\run.py"
+                "${workspaceRoot}/run.py"
             ],
             "group": {
                 "kind": "build",
